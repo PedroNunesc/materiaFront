@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>1️⃣ Reprodutor de Podcast</h2>
+
+    <audio controls preload="metadata" loop>
+      <source src="audio2.mp3" type="audio/mpeg">
+      Seu navegador não suporta o elemento de áudio.
+    </audio>
+    <p>
+      <a href="audio2.mp3">Clique aqui para baixar o áudio</a>.
+    </p>
+    <p>Esta é uma gravação de áudio do Dr. Martin Luther King Jr. fazendo o discurso "Eu tenho um sonho" durante o protesto pelos direitos civis nos degraus do Lincoln Memorial em Washington DC em 28 de agosto de 1963.</p>
+
+
+    <h2>2️⃣ Galeria de Vídeos</h2>
+
+    <video width="640" height="360" controls poster="thumbnail.jpg">
+        <source src="tutorial.mp4" type="video/mp4">
+        <p>Seu navegador não suporta vídeos HTML5.
+           <a href="tutorial.mp4">Baixe o vídeo</a> para assistir offline.</p>
+      </video>
+      
+
+      <h2>3️⃣ Formulário de Envio de Imagens</h2>
+
+      <form action="/upload" method="post" enctype="multipart/form-data">
+        <label for="arquivo">Selecione uma imagem:</label><br>
+        <input type="file" id="arquivo" name="arquivo" accept="image/*">
+        <p>Formatos aceitos: JPG, PNG ou GIF. Tamanho máximo: 5MB.</p>
+        <button type="submit">Enviar</button>
+      </form>
+      
+</body>
+</html>
