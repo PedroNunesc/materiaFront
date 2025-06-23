@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  padding-top: 80px; 
+  background-color: black;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #8b56ee;
+}
+
+h3, p {
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  padding: 15px;
+}
+
+.menu img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.menu a {
+  color: white;
+  font-weight: bold;
+}
+
+.titulo {
+  text-align: center;
+  margin: 40px;
+  color: white;
+}
+
+.produto {
+  width: 200px;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.produto img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.detalhes-filme {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+.produto h2 {
+  text-align: center;
+  color: black;
+  margin-top: 10px;
+}
+
+.descricao-filme {
+  max-width: 600px;
+}
+
+.descricao-filme h3,
+.descricao-filme p {
+  color: white;
+  margin-bottom: 10px;
+}
+
+footer {
+  position: relative;
+  top: 58px;
+  text-align: center;
+  padding: 20px;
+  background: #8b56ee;
+  color: black;
+  font-size: 14px;
+}
+
+footer a{
+  color: black;
+}

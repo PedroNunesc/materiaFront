@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    padding-top: 80px;
+    background-color: black;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #8b56ee;
+  }
+
+  ul {
+    list-style-type: none;
+    padding-left: 0; 
+  }
+
+  .menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding: 15px;
+  }
+
+  .menu img {
+    width: 50px;
+    border-radius: 50%;
+  }
+  
+  .menu a {
+    color: white;
+    font-weight: bold;
+  }
+  
+  .titulo {
+    text-align: center;
+    margin: 40px;
+    color: white;
+  }
+  
+  .filmes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+  }
+  
+  .produto {
+    width: 200px;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .produto img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .filmes h2 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+  }
+  
+  .filmes p {
+    color: black;
+    font-weight: bold;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #8b56ee;
+    color: black;
+    font-size: 14px;
+  }
+  
+  footer a{
+    color: black;
+  }
